@@ -3,7 +3,7 @@
 ## Overview
 This project consists of two devices: a portable air quality sensing device and a desktop display device. The sensing device collects air quality data, including CO2 and PM2.5 levels, and wirelessly transmits the data to the display device. The display device provides a clear, real-time visualization using a stepper motor-driven needle, LEDs, and a tactile button.
 
-![Sketch of System](514_final/images/sketch.png)
+![Sketch of System](samarkhan1409/514_final/images/sketch.png)
 
 ---
 

@@ -14,7 +14,7 @@ This project consists of two devices: a portable air quality sensing device and 
 The sensing device is a compact handheld unit equipped with the following components:
 
 - **Sensors:**
-  - **CO2 Sensor:** [SCD30](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensor-scd30/)
+  - **CO2 Sensor:** [SCD30](https://sensirion.com/products/catalog/SCD30/)
   - **PM2.5 Sensor:** [PMS5003](https://learn.adafruit.com/pm25-air-quality-sensor)
 - **Microcontroller:** ESP32 (for wireless communication via Wi-Fi/Bluetooth)
 - **Battery:** Rechargeable LiPo battery (3.7V, 2000mAh)

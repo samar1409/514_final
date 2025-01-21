@@ -4,7 +4,8 @@
 This project consists of two devices: a portable air quality sensing device and a desktop display device. The sensing device collects air quality data, including CO2 and PM2.5 levels, and wirelessly transmits the data to the display device. The display device provides a clear, real-time visualization using a stepper motor-driven needle, LEDs, and a tactile button.
 
 ## Sketch of the System
-<img width="647" alt="sketch" src="https://github.com/user-attachments/assets/24618ef8-48b7-4b15-ad58-1ccfc1456bd2" />
+<img width="355" alt="sketch" src="https://github.com/user-attachments/assets/6deaa074-9e97-4785-b630-bea4789e9e7e" />
+
 
 ---
 
@@ -22,8 +23,9 @@ The sensing device is a compact handheld unit equipped with the following compon
 
 ### How It Works
 The CO2 sensor measures the concentration of carbon dioxide in the air, while the PM2.5 sensor measures fine particulate matter. The ESP32 processes the sensor data and transmits it wirelessly to the display device via Wi-Fi. The device is powered by a rechargeable LiPo battery.
+<img width="388" alt="sensing" src="https://github.com/user-attachments/assets/2efbbc31-e5a8-48df-9d17-cbc94ffaedf8" />
 
-![Sketch of Sensing Device](path/to/sketch_of_sensing_device.png)
+
 
 ---
 
@@ -44,7 +46,8 @@ The display device is a compact desktop unit featuring:
 ### How It Works
 The Arduino Nano receives air quality data wirelessly from the sensing device. It drives the stepper motor to move the needle on the gauge, indicating air quality levels. RGB LEDs provide visual alerts for specific pollutant thresholds, and the tactile button resets threshold settings.
 
-![Sketch of Display Device](path/to/sketch_of_display_device.png)
+<img width="270" alt="display" src="https://github.com/user-attachments/assets/f0c09ff1-0067-49d5-a109-2442e8f0142f" />
+
 
 ---
 
@@ -55,8 +58,9 @@ The ESP32 on the sensing device collects sensor data and transmits it to the Ard
 
 ### Diagram
 
-#### Hardware Architecture
-![Hardware Diagram](path/to/system_architecture_diagram.png)
+#### Architecture
+<img width="703" alt="architecture" src="https://github.com/user-attachments/assets/1704bb41-8454-499b-af2d-c2b018676822" />
+
 
 #### Workflow
 1. The CO2 and PM2.5 sensors collect air quality data.
@@ -75,10 +79,5 @@ The datasheets for the following components are included in the `datasheets/` di
 - [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
 - [28BYJ-48 Stepper Motor + ULN2003 Driver](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
 
----
 
-## Repository Links
-Ensure to upload all sketches, diagrams, and code files into this repository.
-
-- [GitHub Repository](#) (Replace with actual URL)
 

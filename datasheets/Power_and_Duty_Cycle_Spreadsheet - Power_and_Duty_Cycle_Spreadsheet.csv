@@ -1,0 +1,13 @@
+Device,Component,Power (mW),Duty Cycle (%),Avg Power (mW),Daily Energy (mWh)
+Sensing Device,ESP32,150,100,150,3600
+Sensing Device,CO2 Sensor (SCD30),160,100,160,3840
+Sensing Device,PM2.5 Sensor (PMS5003),100,50,50,1200
+Sensing Device,Wi-Fi Transmission,200,20,40,960
+Display Device,Arduino Nano,50,100,50,1200
+Display Device,Stepper Motor (28BYJ-48),500,20,100,2400
+Display Device,RGB LED,60,30,18,432
+Display Device,Tactile Button (Idle Power),5,100,5,120
+,,,,,
+Device,Daily Energy (mWh),Required Battery Capacity (mAh),,,
+Sensing Device,9600,2882.882883,,,
+Display Device,4152,1246.846847,,,

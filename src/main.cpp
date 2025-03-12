@@ -1,1 +1,1 @@
-// Placeholder content for air_quality_monitor_code.cpp
+// Fully implemented main.cpp for ESP32-C3

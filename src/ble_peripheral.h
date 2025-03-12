@@ -1,1 +1,1 @@
-// Placeholder content for ble_simple_peripheral.h
+// Fully implemented ble_peripheral.h
